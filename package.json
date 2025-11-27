@@ -1,0 +1,29 @@
+{
+  "name": "campuscircle",
+  "version": "1.0.0",
+  "description": "College Social Media Platform - MERN Stack",
+  "main": "index.js",
+  "scripts": {
+    "install-backend": "cd backend && npm install",
+    "install-frontend": "cd frontend && npm install",
+    "install-all": "npm run install-backend && npm run install-frontend",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm start",
+    "seed": "cd backend && npm run seed",
+    "dev": "echo 'Run backend and frontend in separate terminals' && echo 'Terminal 1: npm run backend' && echo 'Terminal 2: npm run frontend'"
+  },
+  "keywords": [
+    "mern",
+    "social-media",
+    "college",
+    "react",
+    "nodejs",
+    "mongodb",
+    "express"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
+
+
+
